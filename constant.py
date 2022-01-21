@@ -1,9 +1,15 @@
 """ Sizes """
+
 window = [1280, 640]
+
 ball = [10, 10]
+
 plant = [40, 45]
+
 zombie = [40, 45]
+
 sun = [20, 20]
+
 count_box = [80, 37]
 
 """ FPS """
@@ -17,20 +23,23 @@ colors = {'BLACK': (0, 0, 0), 'WHITE': (255, 255, 255), 'RED': (255, 0, 0), 'GRE
 """ HP """
 
 peas_HP = 100
+
 zombie_HP = 100
 
 """ Damage """
 
 bullet_DMG = 20
+
 zombie_DMG = 25
-
-
 
 """ Coordinates """
 
 plant_coordinate = [160, 50]
+
 ball_coordinate = [0, 0]
+
 first_box_coordinate = [[112, 17], [208, 83]]
+
 bed_boxes_start = [
     (100, 0), (100, 166), (100, 332), (100, 498), (100, 664), (100, 830),
     (200, 0), (200, 166), (200, 332), (200, 498), (200, 664), (200, 830),
@@ -63,7 +72,10 @@ zombie_spawn = [
 
 sun_count = 250
 
+sun_bonus = 25
+
 """ LEVELS """
+
 #LEVEL_1
 zombie_spawn_1 = [
     [1000, 155, 2500], [1000, 155, 2000], [1000, 355, 1500], [1000, 155, 0], [1000, 455, 2000], [1000, 255, 2500],
@@ -72,10 +84,12 @@ zombie_spawn_1 = [
 
 """ Media Path """
 
-img_dir = 'govnophotoshop'
+img_dir = 'images'
 
 """ Time """
+
 time_spawn = 0
+
 time_shoot = 0
 
 """ Else """

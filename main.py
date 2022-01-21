@@ -28,7 +28,7 @@ class Ball(pygame.sprite.Sprite):
         self.rect.x += 10
         if self.rect.left > ct.window[0]:
             self.rect.right = ct.ball_coordinate[0]
-            ct.sun_count += 25
+            ct.sun_count += ct.sun_bonus
             ct.shoot = 1*ct.num_pies
             print(ct.sun_count)
 
